@@ -9,4 +9,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('AngularApp');
+  public items = [
+    { title: 'MENU 1', id: 1 },
+    { title: 'MENU 2', id: 2 },
+    { title: 'MENU 3', id: 3 }
+  ];
+  public itemAtual = 1;
 }
