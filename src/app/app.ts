@@ -10,9 +10,12 @@ import { RouterOutlet } from '@angular/router';
 export class App {
   protected readonly title = signal('AngularApp');
   public items = [
-    { title: 'MENU 1', id: 1 },
-    { title: 'MENU 2', id: 2 },
-    { title: 'MENU 3', id: 3 }
+    { title: 'Visão Geral', id: 1 },
+    { title: 'Por que Angular?', id: 2 },
+    { title: 'Componentes', id: 3 },
+    { title: 'TypeScript', id: 4 },
+    { title: 'Performance & Ferramentas', id: 5 },
+    { title: 'Angular x Outros', id: 6 }
   ];
   public itemAtual = 1;
 }

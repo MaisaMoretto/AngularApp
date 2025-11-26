@@ -26,7 +26,6 @@
           </clipPath>
         </defs>
       </svg>
-      <h1>Bem-vindo ao Angular</h1>
       <div class="pill-group">
         @for (item of items; track item.id) {
         <button class="pill" rel="noopener" (click)="itemAtual = item.id">
@@ -38,9 +37,39 @@
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
       @if (itemAtual === 1) {
-        <h1>Titulo</h1>
-        <img src="https://labetno.ufpa.br/images/galeria_em_artigos/image03_grd.png" alt="teste">
-        <p>Conteudo</p>
+      <h1>1. O que é o Angular?</h1>
+      <img src="https://www.fusioncharts.com/blog/wp-content/uploads/2022/09/pexels-antonio-batinic%CC%81-4164418-768x512.jpg" alt="teste">
+      <p>Angular é um framework criado e mantido pelo Google, voltado para o desenvolvimento de aplicações web modernas e escaláveis. Ele utiliza TypeScript como linguagem principal e oferece uma estrutura completa, padronizada e preparada para lidar com projetos robustos. Sua arquitetura orientada a componentes, aliada a ferramentas internas poderosas, torna o Angular uma opção sólida para equipes que buscam produtividade e consistência.</p>
+      }
+      @if (itemAtual === 2) {
+      <h1>2. Por que usar o Angular?</h1>
+      <img src="https://copilot.microsoft.com/th/id/BCO.a0d715d9-1c1e-4633-86af-7cbcadc01a8e.png" alt="teste">
+      <p>O Angular se destaca por entregar uma solução completa, pronta para uso, com recursos integrados como roteamento, formulários, serviços, comunicação com APIs e gestão de estados. Isso reduz a dependência de bibliotecas externas e garante uma base mais estável. Ele também possui forte suporte empresarial, excelente documentação e funcionalidades que facilitam manutenção, testes e escalabilidade — fatores essenciais em ambientes corporativos.</p>
+      }
+      @if (itemAtual === 3) {
+      <h1>3. Arquitetura baseada em Componentes</h1>
+      <img src="https://copilot.microsoft.com/th/id/BCO.11f0c7bd-e927-430c-be81-926de6f7d8df.png" alt="abc">
+      <p>No Angular, toda a aplicação é construída a partir de componentes independentes, cada um responsável por uma parte da interface e da lógica. Essa abordagem modular facilita organização, reutilização de código e evolução do software ao longo do tempo. Componentes também permitem que equipes trabalhem paralelamente, reduzindo conflitos e acelerando o desenvolvimento.</p>
+      }
+      @if (itemAtual === 4) {
+      <h1>4. TypeScript como base do desenvolvimento</h1>
+      <img src="https://copilot.microsoft.com/th/id/BCO.f81929a0-2755-40a5-ac5f-5b4ca5c482ce.png" alt="teste">
+      <p>O Angular usa TypeScript, uma versão avançada do JavaScript com tipagem estática. Isso ajuda a evitar erros comuns, melhora a clareza do código e oferece recursos modernos como interfaces, decorators e classes. O resultado é um desenvolvimento mais seguro, previsível e produtivo, especialmente em projetos grandes.</p>
+      }
+      @if (itemAtual === 5) {
+      <h1>5. Performance e ferramentas avançadas</h1>
+      <img src="https://copilot.microsoft.com/th/id/BCO.8cdbd77d-432f-41e6-8ca4-11d01f9a6d14.png" alt="teste">
+      <p>O Angular conta com um sistema poderoso de detecção de mudanças, lazy loading, otimizações automáticas no build e suporte a SSR (Server-Side Rendering). Ele também vem com o Angular CLI, que automatiza criação de componentes, testes, builds, deploy e muito mais. Tudo isso contribui para aplicações rápidas e otimizadas.</p>
+      }
+      @if (itemAtual === 6) {
+      <h1>6. Comparação com outros frameworks</h1>
+      <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*_dmYy-t1EtTMHEMf1XyyBQ.png" alt="teste">
+      <p>Comparado ao React e ao Vue, o Angular é o mais completo e opinado. Ele já entrega tudo pronto, enquanto outros
+        dependem de bibliotecas externas para funcionalidades essenciais. Isso pode ser uma vantagem em projetos
+        corporativos, que exigem padronização, robustez e previsibilidade.<br><br>
+          — React: mais flexível, porém mais dependente de libs externas.<br>
+          — Vue: mais simples e acessível, mas menos utilizado em projetos complexos corporativos.<br>
+          — Angular: ideal para grandes aplicações que exigem estrutura, segurança e forte alinhamento entre equipes.</p>
       }
     </div>
   </div>
